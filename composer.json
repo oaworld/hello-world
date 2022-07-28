@@ -1,0 +1,21 @@
+{
+    "name": "oaworld/hello-world",
+    "description": "hello world composer package create",
+    "type": "library",
+    "require": {
+        "php": ">=7.2"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Oaworld\\HelloWorld\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "uno",
+            "email": "sun@naver.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
